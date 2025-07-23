@@ -11,12 +11,12 @@
          version="3.0">
 
     <servlet>
-        <servlet-name>DisplayServlets</servlet-name>
+        <servlet-name>DisplayServlet</servlet-name>
         <servlet-class>com.example.myservlet.DisplayServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>DisplayServlets</servlet-name>
+        <servlet-name>DisplayServlet</servlet-name>
         <url-pattern>/xyz</url-pattern>
     </servlet-mapping>
 
