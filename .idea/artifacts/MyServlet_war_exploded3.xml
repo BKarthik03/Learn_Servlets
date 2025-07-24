@@ -7,6 +7,9 @@
           <element id="module-output" name="MyServlet" />
         </element>
         <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/web3.xml" output-file-name="web.xml" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-j-9.3.0" />
+        </element>
       </element>
       <element id="javaee-facet-resources" facet="MyServlet/web/Web" />
       <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/Login.html" />
