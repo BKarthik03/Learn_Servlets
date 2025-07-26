@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>RequestServlet</servlet-name>
+        <servlet-class>com.example.Attribute.RequestServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DisplayServlet</servlet-name>
+        <servlet-class>com.example.Attribute.DisplayServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServlet</servlet-name>
+        <url-pattern>/reqAttr</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DisplayServlet</servlet-name>
+        <url-pattern>/disAttr</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+       <welcome-file>attribute.html</welcome-file>
+    </welcome-file-list>
+</web-app>

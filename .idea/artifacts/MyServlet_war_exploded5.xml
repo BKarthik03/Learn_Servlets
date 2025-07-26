@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyServlet:war exploded5">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyServlet_war_exploded5</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyServlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-j-9.3.0" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/Installers/JDBC/mysql-connector-j_9.3.0-1ubuntu24.04_all/usr/share/java/mysql-connector-j-9.3.0.jar" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/web5.xml" output-file-name="web.xml" />
+      </element>
+      <element id="javaee-facet-resources" facet="MyServlet/web/Web" />
+    </root>
+  </artifact>
+</component>

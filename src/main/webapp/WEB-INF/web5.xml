@@ -1,0 +1,19 @@
+<?xml version="3.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>ContextServlet</servlet-name>
+        <servlet-class>com.example.ContextServlet.ContextServlet</servlet-class>
+    </servlet>
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>Hello World</param-value>
+    </context-param>
+    <servlet-mapping>
+        <servlet-name>ContextServlet</servlet-name>
+        <url-pattern>/contextS</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>context.html</welcome-file>
+    </welcome-file-list>
+</web-app>
